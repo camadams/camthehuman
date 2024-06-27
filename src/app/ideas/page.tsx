@@ -79,7 +79,7 @@ const websites: Website[] = [
   {
     year: 2020,
     name: "Social Media Payment penalty",
-    description: "A visualization of Dijkstra's algorithm",
+    description: "A visualization of Dijdkstra's algorithm",
     link: "https://camadams.netlify.app/projects/pathfinding/pathfinding",
   },
   {
