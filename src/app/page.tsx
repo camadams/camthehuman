@@ -10,19 +10,12 @@ export default function Home() {
       <div>
         <div className="p-10" />
         <div className="relative w-32 h-32 mx-auto">
-          <Image
-            className="bg-red-600 absolute rounded-full border-blue-200 border-4"
-            src={"/me.jpg"}
-            fill
-            alt="hi"
-          />
+          <Image className="absolute rounded-full border-blue-200 border-4" src={"/me.jpg"} fill alt="hi" />
         </div>
         <div className="p-4" />
         <h1 className="text-center">Hi, Cam here :)</h1>
         <div className="p-2" />
-        <h3 className="text-lg text-center">
-          Building software is a thing I enjoy doing.
-        </h3>
+        <h3 className="text-lg text-center">Building software is a thing I enjoy doing.</h3>
       </div>
     );
   };
@@ -30,7 +23,6 @@ export default function Home() {
   const Projects = () => {
     return (
       <>
-        <div className="p-10" />
         <div className="px-6">
           <div className="p-4" />
           <div>
@@ -41,27 +33,56 @@ export default function Home() {
             </Link>
           </div>
 
-          <p>Starting July 2024, I will build 12 startups in 12 months.</p>
-          <p className="my-2">Here are two of my completed projects:</p>
           <p className="my-2">
             <Link href="https://likeartists.vercel.app" className="underline">
               🎹 Follow Artists &#8599;
             </Link>
-            : A tool that integrates the Spotify API to make following artists
-            from your liked songs more efficient
+            : A tool that integrates the Spotify API to make following artists from your liked songs more efficient
           </p>
           <h3>
             {" "}
             <p className="my-2">
-              <Link
-                href="https://camadams.netlify.app/projects/waves/waves"
-                className="underline"
-              >
+              <Link href="https://camadams.netlify.app/projects/waves/waves" className="underline">
                 🌊 Sine Wave visulation &#8599;
               </Link>
               : A satisfying Sine Wave generator
             </p>
           </h3>
+        </div>
+      </>
+    );
+  };
+
+  const Ideas = () => {
+    return (
+      <>
+        <div className="px-6">
+          <div className="p-4" />
+          <div>
+            <Link href="/ideas">
+              <h2 className="text-2xl ">
+                Ideas<span className="text-sm "> &gt; </span>
+              </h2>
+            </Link>
+          </div>
+
+          <p>Starting July 2024, I will build 12 startups in 12 months.</p>
+
+          {/* <p className="my-2">
+            <Link href="https://likeartists.vercel.app" className="underline">
+              🎹 Follow Artists &#8599;
+            </Link>
+            : A tool that integrates the Spotify API to make following artists from your liked songs more efficient
+          </p>
+          <h3>
+            {" "}
+            <p className="my-2">
+              <Link href="https://camadams.netlify.app/projects/waves/waves" className="underline">
+                🌊 Sine Wave visulation &#8599;
+              </Link>
+              : A satisfying Sine Wave generator
+            </p>
+          </h3> */}
         </div>
       </>
     );
@@ -79,7 +100,9 @@ export default function Home() {
       <div className="flex min-h-screen flex-col ">
         <NavBar />
         <Hero />
+        <div className="p-6" />
         <Projects />
+        <Ideas />
       </div>
       {/* <div className="flex min-h-screen flex-col items-center justify-between p-24 bg-slate-800">
         Ta
