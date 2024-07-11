@@ -27,7 +27,7 @@ export default function Home() {
           <div className="p-4" />
           <div>
             <Link href={"/projects"}>
-              <h2 className="text-2xl ">
+              <h2>
                 Projects<span className="text-sm "> &gt; </span>
               </h2>
             </Link>
@@ -60,7 +60,7 @@ export default function Home() {
           <div className="p-4" />
           <div>
             <Link href="/ideas">
-              <h2 className="text-2xl ">
+              <h2>
                 Ideas<span className="text-sm "> &gt; </span>
               </h2>
             </Link>
