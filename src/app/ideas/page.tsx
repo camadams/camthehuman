@@ -83,38 +83,38 @@ export default function Home() {
   // // const [notifyArr, setNotifyArr] = useState<number[]>([1, 2]);
   // const posts = await db.query.postsTable.findMany();
   // const posts = await fetch("");
-  const [posts, setPosts] = useState<SelectPost[]>();
+  // const [posts, setPosts] = useState<SelectPost[]>();
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch("/api/testt", { cache: "no-store" });
-        const data: SelectPost[] = await response.json();
-        setPosts(data);
-        console.log(data);
-      } catch (error) {
-        alert("Error fetching data: " + error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await fetch("/api/testt", { cache: "no-store" });
+  //       const data: SelectPost[] = await response.json();
+  //       setPosts(data);
+  //       console.log(data);
+  //     } catch (error) {
+  //       alert("Error fetching data: " + error);
+  //     }
+  //   };
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
 
   return (
     <>
       <NavBar />
-      {posts && posts.map((x, i) => <div key={i}>{x.content}</div>)}
+      {/* {posts && posts.map((x, i) => <div key={i}>{x.content}</div>)} */}
       {/* {posts && <p>{posts[0].createdAt}</p>} */}
       {/* {posts.map((post, i) => (
         <div className="h-6 bg-red-500" key={i}>
           {post.createdAt}
         </div>
       ))} */}
-      <form action={stff}>
+      {/* <form action={stff}>
         <button>submit</button>
-      </form>
+      </form> */}
       {/* <Table notifyArr={posts.map((post) => post.id)} /> */}
-      <Table notifyArr={[1, 2]} />
+      <Table notifyArr={[]} />
     </>
   );
 }
