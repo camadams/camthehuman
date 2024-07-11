@@ -40,7 +40,7 @@ export default function Page() {
             this video
           </a>{" "}
           that provided techniques on how to find and validate SaaS ideas. The last point recommended looking at Product Hunt, which is how I found
-          alertbnb.com. I discovered Alertstays by simply googling "Airbnb notifications."
+          alertbnb.com. I discovered Alertstays by simply googling &quot; Airbnb notifications.&quot;
         </p>
         <h2>Marketing</h2>
         <p className="py-6">
