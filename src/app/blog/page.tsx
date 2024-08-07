@@ -5,11 +5,16 @@ export default function Blog() {
   return (
     <>
       <NavBar />
-      <div className="mt-10 flex flex-col gap-16 px-8 max-w-xl mx-auto">
-        <h1>Blog</h1>
-        <Link href={"/blog/1"} className="text-xl font-medium">
-          BnbNotifier: Idea Validation
-        </Link>{" "}
+      <div className="mt-10 flex flex-col px-8 max-w-3xl mx-auto">
+        <h1 className="mb-10">Blog</h1>
+        <div className="space-y-4 flex flex-col">
+          <Link href={"/blog/1"} className="text-lg font-medium">
+            App 1/12 Part 1/4 - BnbNotifier Idea Validation
+          </Link>{" "}
+          <Link href={"/blog/2"} className="text-lg font-medium">
+            App 1/12 Part 2/4 - BnbNotifier Authentication and Web Scraping
+          </Link>{" "}
+        </div>
       </div>
     </>
   );

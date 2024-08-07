@@ -1,4 +1,5 @@
 import NavBar from "@/app/navbar";
+import Footer from "../footer";
 
 export default function Page() {
   return (
@@ -51,6 +52,7 @@ export default function Page() {
           to promote the idea. Ideally, advertising early could help gauge interest before starting to build it. However for this app, even if no one
           uses it, it will still be great practice for completing an end to end product and I could still use it in my personal life.
         </p>
+        <Footer date="11 July 2024" />
       </div>
     </>
   );
