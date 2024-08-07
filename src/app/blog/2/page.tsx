@@ -30,9 +30,9 @@ export default function Page() {
           <br />
           When starting to implement authentication for the first time, it can be pretty intimidating since it touches so many aspects of software
           engineering, from programming fundamentals you learn in the first couple of weeks of a coding course to server and client-side programming
-          like setting cookies on the client (cookies are a weird way of describing data stored on the client’s device).
+          like setting cookies on the client &#40;cookies are a weird way of describing data stored on the client&apos;s device &#41;.
           <br />
-          You also need to understand connecting to a database and storing encrypted passwords. It’s also helpful to know some user interface
+          You also need to understand connecting to a database and storing encrypted passwords. It&apos;s also helpful to know some user interface
           fundamentals, like coding a form to accept a username and password and validating these inputs, and to have some CSS knowledge to style the
           UI.
           <br />
