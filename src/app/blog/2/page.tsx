@@ -24,8 +24,8 @@ export default function Page() {
           <Image className="absolute rounded-full border-blue-200 border-2" src={"/me.jpg"} fill alt="hi" />
         </div> */}
           <br />
-          Authentication is a huge topic in a software project. When you're paying for a product or service, it's essential to ensure that only you
-          have access to your profile.
+          Authentication is a huge topic in a software project. When you&apos;re paying for a product or service, it&apos;s essential to ensure that
+          only you have access to your profile.
           <br />
           <br />
           When starting to implement authentication for the first time, it can be pretty intimidating since it touches so many aspects of software
