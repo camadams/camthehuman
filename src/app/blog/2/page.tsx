@@ -39,8 +39,7 @@ export default function Page() {
           Caching is another important aspect, as different components on a page may render conditionally based on whether a user is logged in or not.
           <br />
           <br />
-          Overall, authentication spans a wide range of skills and knowledge areas, making it a challenging but essential part of software
-          development.
+          Overall, authentication spans a wide range of skills making it a challenging but essential part of software development.
           <br />
           <br />
           Elloitt Chong in{" "}
