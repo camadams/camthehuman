@@ -16,8 +16,8 @@ export default function Page() {
         <div className="flex flex-col gap-8">
           <div />
           <p>
-            Since my last blog, I've spent most of my time working on getting <strong>Puppeteer</strong>, a web scraping library, to function in a
-            production environment and setting up a cron job to periodically run the scraper.
+            Since my last blog, I&apos;ve spent most of my time working on getting <strong>Puppeteer</strong>, a web scraping library, to function in
+            a production environment and setting up a cron job to periodically run the scraper.
           </p>
           <p>
             I initially tried following some tutorials using <strong>AWS SAM &#40;Serverless Application Model&#41;</strong>, which is supposed to
