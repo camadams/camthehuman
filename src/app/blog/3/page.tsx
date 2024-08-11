@@ -20,15 +20,15 @@ export default function Page() {
             production environment and setting up a cron job to periodically run the scraper.
           </p>
           <p>
-            I initially tried following some tutorials using <strong>AWS SAM (Serverless Application Model)</strong>, which is supposed to offer a
-            great developer experience. With AWS SAM, you can create Lambdas, test them, and push them to a production environment directly from the
-            command line, without relying on AWS’s user interface. However, I ran into issues with AWS’s access, permission, and role management, so I
-            ended up using the user interface, where I successfully got a Puppeteer script to run.
+            I initially tried following some tutorials using <strong>AWS SAM &#40;Serverless Application Model&#41;</strong>, which is supposed to
+            offer a great developer experience. With AWS SAM, you can create Lambdas, test them, and push them to a production environment directly
+            from the command line, without relying on AWS&apos;s user interface. However, I ran into issues with AWS&apos;s access, permission, and
+            role management, so I ended up using the user interface, where I successfully got a Puppeteer script to run.
           </p>
           <p>
             When uploading the script via the AWS user interface, the code needed to be under 50MB. Otherwise, I had to upload it through{" "}
-            <strong>AWS S3</strong> (which is essentially Google Drive for AWS) and provide the S3 URL for the Lambda. This led me to explore how
-            code, especially Node.js/JavaScript code, is prepared and built for production—an entirely different world in itself. It also got me
+            <strong>AWS S3</strong> &#40;which is essentially Google Drive for AWS&#41; and provide the S3 URL for the Lambda. This led me to explore
+            how code, especially Node.js/JavaScript code, is prepared and built for production—an entirely different world in itself. It also got me
             investigating how the dependencies of my app can have different versions and how sometimes modules require specific versions to satisfy
             other dependencies. For instance, I used a package called <strong>chromium</strong>, which simulates a Chrome browser that Puppeteer can
             use. The version of the Puppeteer module depends on the version of Chromium it requires.
