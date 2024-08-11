@@ -14,6 +14,9 @@ export default function Blog() {
           <Link href={"/blog/2"} className="text-lg font-medium">
             App 1/12 Part 2/4 - BnbNotifier Authentication and Web Scraping
           </Link>{" "}
+          <Link href={"/blog/3"} className="text-lg font-medium">
+            App 1/12 Part 3+4/4 - BnbNotifier: Testing Production and Cron Job woes
+          </Link>{" "}
         </div>
       </div>
     </>
