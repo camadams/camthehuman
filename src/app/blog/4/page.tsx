@@ -11,7 +11,6 @@ export default function Page() {
       <div className="max-w-2xl w-full mx-auto pb-16 px-4">
         <h1 className="pt-20 font-semibold">BnbNotifier: Housing in South Africa</h1>
         <h3 className="py-8 italic border-b-2 ">
-          {" "}
           app 1/12 <br /> part 4
         </h3>
         <div className="flex flex-col gap-8">
