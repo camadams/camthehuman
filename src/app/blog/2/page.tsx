@@ -11,7 +11,7 @@ export default function Page() {
         <h1 className="pt-20 font-semibold">BnbNotifier: Authentication and Web Scraping</h1>
         <h3 className="py-8 italic border-b-2 ">
           {" "}
-          app 1/12 <br /> part 2/4
+          app 1/12 <br /> part 2
         </h3>
         <p className="py-10">
           This week I made progress on learning about Authentication and Web Scraping.

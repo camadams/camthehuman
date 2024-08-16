@@ -10,7 +10,7 @@ export default function Page() {
         <h1 className="pt-20 font-semibold">BnbNotifier: Idea Validation</h1>
         <h3 className="py-8 italic border-b-2 ">
           {" "}
-          app 1/12 <br /> part 1/4
+          app 1/12 <br /> part 1
         </h3>
         <p className="py-10">
           When starting a new project, it is important to analyze competitors to identify features or business models that could provide an edge or

@@ -11,7 +11,7 @@ export default function Page() {
         <h1 className="pt-20 font-semibold">BnbNotifier: Testing Production and Cron Job woes</h1>
         <h3 className="py-8 italic border-b-2 ">
           {" "}
-          app 1/12 <br /> part 3+4/4
+          app 1/12 <br /> part 3
         </h3>
         <div className="flex flex-col gap-8">
           <div />
