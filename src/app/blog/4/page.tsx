@@ -52,15 +52,15 @@ export default function Page() {
           </p>
 
           <p>
-            One of their researches says: "The issue is not with individual owners who rent out a spare room or established B&Bs who now use Airbnb's
-            platform, but rather with the fact that the majority of Airbnbs are owned by people with several listings on the platform - some
-            individuals and companies have more than 150 listings! The individuals and companies are effectively acting as unregulated hotels in order
-            to avoid the taxes and systems in place to protect both hotel guests and staff. A related issue is that developers in the central city are
-            now largely building tiny apartments targeted at short-term rentals. These apartments are great for Airbnb but have no chance of fitting
-            local households at any point. So not only is Airbnb distorting our local housing market and pricing out local families, but it is also
-            reshaping our very built environment in a way that will exclude larger and larger numbers of people. The City needs to properly balance
-            the genuine benefits provided by tourism with the costs of damaging platforms like Airbnb if it wants to avoid the issues which have been
-            so clearly documented and evidenced all around the world."
+            One of their researches says: &quot;The issue is not with individual owners who rent out a spare room or established B&Bs who now use
+            Airbnb&apos;s platform, but rather with the fact that the majority of Airbnbs are owned by people with several listings on the platform -
+            some individuals and companies have more than 150 listings! The individuals and companies are effectively acting as unregulated hotels in
+            order to avoid the taxes and systems in place to protect both hotel guests and staff. A related issue is that developers in the central
+            city are now largely building tiny apartments targeted at short-term rentals. These apartments are great for Airbnb but have no chance of
+            fitting local households at any point. So not only is Airbnb distorting our local housing market and pricing out local families, but it is
+            also reshaping our very built environment in a way that will exclude larger and larger numbers of people. The City needs to properly
+            balance the genuine benefits provided by tourism with the costs of damaging platforms like Airbnb if it wants to avoid the issues which
+            have been so clearly documented and evidenced all around the world.&quot;
           </p>
 
           <p>
