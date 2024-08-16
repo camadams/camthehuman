@@ -52,7 +52,7 @@ export default function Page() {
           </p>
 
           <p>
-            One of the researches says: "The issue is not with individual owners who rent out a spare room or established B&Bs who now use Airbnb's
+            One of their researches says: "The issue is not with individual owners who rent out a spare room or established B&Bs who now use Airbnb's
             platform, but rather with the fact that the majority of Airbnbs are owned by people with several listings on the platform - some
             individuals and companies have more than 150 listings! The individuals and companies are effectively acting as unregulated hotels in order
             to avoid the taxes and systems in place to protect both hotel guests and staff. A related issue is that developers in the central city are
