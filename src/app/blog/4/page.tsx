@@ -3,13 +3,19 @@ import Footer from "../footer";
 import Image from "next/image";
 import Anch from "../Anc";
 
+export const metadata = {
+  title: "BnbNotifier: Housing in South Africa 🌍",
+  date: "15 Aug 2024",
+  href: "/blog/4",
+};
+
 export default function Page() {
   return (
     <>
       <NavBar />
 
       <div className="max-w-2xl w-full mx-auto pb-16 px-4">
-        <h1 className="pt-20 font-semibold">BnbNotifier: Housing in South Africa</h1>
+        <h1 className="pt-20 font-semibold">{metadata.title}</h1>
         <h3 className="py-8 italic border-b-2 ">
           app 1/12 <br /> part 4
         </h3>
@@ -41,7 +47,7 @@ export default function Page() {
             on more pressing issues, such as homelessness and the lack of affordable housing.
           </p>
           <p>
-            I chatted with <Anch text="Ndifuna Ukwazi" link="https://nu.org.za/" addSpaceAtEnd={false} />, a social justice
+            I DM&apos;d and chatted with <Anch text="Ndifuna Ukwazi" link="https://nu.org.za/" addSpaceAtEnd={false} />, a social justice
             organization, about affordable housing. I learned that affordable living isn&apos;t just about the rent and utilities you pay, but also
             about your location. Proximity to public transport, shops, and other amenities is a crucial factor in affordability. I asked what is considered
             an afforable percentage of ones monthly income to spend on rent. They said one third is a widely agreed-upon standard. They also provided valuable insights
@@ -100,7 +106,7 @@ export default function Page() {
           </div>
         </div>
 
-        <Footer date="15 Aug 2024" />
+        <Footer date={metadata.date} />
       </div>
     </>
   );

@@ -2,13 +2,19 @@ import NavBar from "@/app/navbar";
 import Footer from "../footer";
 import Image from "next/image";
 
+export const metadata = {
+  title: "BnbNotifier: Authentication and Web Scraping 🔒",
+  date: "19 July 2024",
+  href: "/blog/2",
+};
+
 export default function Page() {
   return (
     <>
       <NavBar />
 
       <div className="max-w-2xl w-full mx-auto pb-16 px-4">
-        <h1 className="pt-20 font-semibold">BnbNotifier: Authentication and Web Scraping</h1>
+        <h1 className="pt-20 font-semibold">{metadata.title}</h1>
         <h3 className="py-8 italic border-b-2 ">
           {" "}
           app 1/12 <br /> part 2
@@ -85,7 +91,7 @@ export default function Page() {
           And I have found it difficult to find a solution for Vercel, the hosting service I am using, so I am trying to understand and make it work
           on AWS.
         </p>
-        <Footer date="19 July 2024" />
+        <Footer date={metadata.date} />
       </div>
     </>
   );

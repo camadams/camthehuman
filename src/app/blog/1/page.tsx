@@ -1,13 +1,17 @@
 import NavBar from "@/app/navbar";
 import Footer from "../footer";
-
+export const metadata = {
+  title: "BnbNotifier: Idea Validation 💡",
+  date: "11 July 2024",
+  href: "/blog/1",
+};
 export default function Page() {
   return (
     <>
       <NavBar />
 
       <div className="max-w-xl w-full mx-auto pb-16 px-4">
-        <h1 className="pt-20 font-semibold">BnbNotifier: Idea Validation</h1>
+        <h1 className="pt-20 font-semibold">{metadata.title}</h1>
         <h3 className="py-8 italic border-b-2 ">
           {" "}
           app 1/12 <br /> part 1
@@ -52,7 +56,7 @@ export default function Page() {
           to promote the idea. Ideally, advertising early could help gauge interest before starting to build it. However for this app, even if no one
           uses it, it will still be great practice for completing an end to end product and I could still use it in my personal life.
         </p>
-        <Footer date="11 July 2024" />
+        <Footer date={metadata.date} />
       </div>
     </>
   );
