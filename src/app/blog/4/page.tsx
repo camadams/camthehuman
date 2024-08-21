@@ -95,7 +95,7 @@ export default function Page() {
 
           <div className="flex flex-col gap-2">
             <div className="relative aspect-[0.85] w-2/3 mx-auto ">
-              <Image className="absolute object-fit shadow-md rounded-lg shadow-green-300" src={"/tophost.png"} fill alt="tophost" />
+              <Image className="absolute object-fit shadow-md rounded-lg shadow-green-300" src={"/listingsperhost.png"} fill alt="tophost" />
             </div>
             <p className="w-2/3 mx-auto">
               <Anch text="Nox" link="https://www.noxrentals.com" addSpaceAtEnd={false} />,
