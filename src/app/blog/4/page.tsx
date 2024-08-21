@@ -41,10 +41,10 @@ export default function Page() {
             on more pressing issues, such as homelessness and the lack of affordable housing.
           </p>
           <p>
-            I engaged in a discussion with <Anch text="Ndifuna Ukwazi" link="https://nu.org.za/" addSpaceAtEnd={false} />, a social justice
+            I chatted with <Anch text="Ndifuna Ukwazi" link="https://nu.org.za/" addSpaceAtEnd={false} />, a social justice
             organization, about affordable housing. I learned that affordable living isn&apos;t just about the rent and utilities you pay, but also
-            about your location. Proximity to public transport, shops, and other amenities is a crucial factor in affordability. Ndifuna Ukwazi
-            accepts that allocating one-third of your monthly income to housing is a widely agreed-upon standard. They also provided valuable insights
+            about your location. Proximity to public transport, shops, and other amenities is a crucial factor in affordability. I asked what is considered
+            an afforable percentage of ones monthly income to spend on rent. They said one third is a widely agreed-upon standard. They also provided valuable insights
             into the impact of Airbnb on local housing. For instance, in Berlin, research shows that Airbnb listings reduce the supply of long-term
             rentals and increase rent prices, making it difficult for locals to find accommodation. Additionally, I discovered that some companies in
             Cape Town own as many as 150 buildings, which they can list on Airbnb. Ndifuna Ukwazi suggests that stricter regulations are necessary.
@@ -65,7 +65,7 @@ export default function Page() {
           <p>
             My friend and I noted something interesting. We think that if Airbnb were to shut down, the businesses that currently purchase as many as
             150 properties to turn into rental accommodation would likely switch to platforms like Booking.com, Google, or other competitors to rent
-            their properties. Towards the end of my discussion with Ndifuna Ukwazi, I mentioned this, and they responded by sharing a link to
+            their properties. This is very hypothetical though... Towards the end of my discussion with Ndifuna Ukwazi, I mentioned this, and they responded by sharing a link to
             <Anch text="Inside Airbnb" link="https://insideairbnb.com/cape-town/" addSpaceAtEnd={false} />, a website that highlights Airbnb
             properties in Cape Town. It shows whether the listing is a full home or a room and how many properties each host owns. I found this quite
             eye-opening.
