@@ -44,7 +44,9 @@ export default function Page() {
             solution/system design was. I feel I could have never really known, maybe in hindsight, I could have researched webscraping in an
             production environment. I am pretty stoked on the system design for the app though, here it is below:{" "}
           </p>
-          <ImageWithCaption pixelWidth={1324} pixelLength={264} altText="insider" imageSrc="/bnbnotifier-system-design.png" children={null} />
+          <ImageWithCaption pixelWidth={1324} pixelLength={264} altText="insider" imageSrc="/bnbnotifier-system-design.png">
+            {null}
+          </ImageWithCaption>
           <p>
             This is a little complicated to just setup a cron-like job but in Vercel, the place where I host the app, the free tier only allows 1 cron
             job with a period of 24 hours. Meaning I would only be able to scrap an airbnb url ONCE a day, which is clearly not enough. Ideally I
