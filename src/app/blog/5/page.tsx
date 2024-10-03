@@ -5,7 +5,7 @@ import ImageWithCaption from "../ImageWithCaption";
 
 export const metadata = {
   title: "BnbNotifier: It is live! 🚀",
-  date: "22 Aug 2024",
+  date: "30 Sept 2024",
   href: "/blog/5",
 };
 
