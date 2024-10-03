@@ -35,22 +35,21 @@ export default function Page() {
             <br /> 5. done
           </p>
           <p>
-            This is an MVP, the code would need an entire face list/system redesign once there are a few users. The app scraps one Airbnb url hour. So
-            at most it can scrap 24 in a day. This is because I lacked knowledge of how periodic web scraping in a production environment really works
-            but now I have a better understanding and appreciation which I am proud to have learnt from just creating this app.
-            <br /> For a revamp, I would probably have to dive into renting a VPS, Virtual Private Server, which are about $5/mo. This would eliminate
-            AWS and Vercel. <br /> I also learnt more about what it means to validate an idea. I wrote a a bit about validating this idea in{" "}
-            <Anch link="/blog/1" text="this blog" addSpaceAtEnd={true} /> thought what I never touched on was how feasible the software
-            solution/system design was. I feel I could have never really known, maybe in hindsight, I could have researched webscraping in an
-            production environment. I am pretty stoked on the system design for the app though, here it is below:{" "}
+            This is an MVP, and the code will require a full system redesign once there are more users. The app currently scrapes one Airbnb URL per
+            hour, allowing a maximum of 24 URLs per day. This limitation came from my initial lack of experience with periodic web scraping in a
+            production environment. However, I have gained valuable insights through the development process.
+            <br />
+            <br /> For a future revamp, I may need to explore renting a Virtual Private Server &#40;VPS&#41;, which costs around $5/mo and would
+            eliminate the need for AWS and Vercel. The free tier for Vercel limits me to one cron job execution per day. Ideally, I&apos;d like a
+            system that allows scraping at least every hour for multiple users. Despite the limitations, I&apos;m happy with the system design so far.{" "}
           </p>
           <ImageWithCaption pixelWidth={1324} pixelLength={264} altText="insider" imageSrc="/bnbnotifier-system-design.png">
             {null}
           </ImageWithCaption>
           <p>
-            This is a little complicated to just setup a cron-like job but in Vercel, the place where I host the app, the free tier only allows 1 cron
-            job with a period of 24 hours. Meaning I would only be able to scrap an airbnb url ONCE a day, which is clearly not enough. Ideally I
-            would like a system where I can scrap at least every hour x X users per day.
+            I&apos;ve also learned more about what it means to validate an idea. I wrote a bit about validating this concept in my blog, but I
+            didn&apos;t fully address the feasibility of the software solution or system design. In hindsight, researching web scraping in a
+            production environment would have been beneficial.
           </p>
         </div>
 
