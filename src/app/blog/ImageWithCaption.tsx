@@ -14,8 +14,9 @@ export default function ImageWithCaption({
 }) {
   return (
     <>
-      <div className={`relative flex flex-col items-center w-full mx-auto `} style={{ aspectRatio: `${pixelWidth} / ${pixelLength}` }}>
-        <Image className="object-contain shadow-md rounded-lg shadow-green-300" src={imageSrc} alt={altText} fill />
+      <div className={`relative`} style={{ aspectRatio: `${pixelWidth} / ${pixelLength}` }}>
+        {/* <Image className="object-contain shadow-md rounded-lg shadow-green-300" src={imageSrc} alt={altText} fill /> */}
+        <img src={imageSrc}></img>
       </div>
       {children}
     </>

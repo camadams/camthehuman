@@ -5,7 +5,7 @@ import { useState } from "react";
 const NavLinks = () => (
   <>
     <Link href="/projects">Projects</Link>
-    <Link href="/ideas">Ideas</Link>
+    {/* <Link href="/ideas">Ideas</Link> */}
     <Link href="/blog">Blog</Link>
     <Link href="/about">About</Link>
   </>

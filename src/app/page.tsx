@@ -34,16 +34,16 @@ export default function Home() {
           </div>
 
           <p className="my-2">
-            <Link href="https://likeartists.vercel.app" className="underline">
-              🎹 Follow Artists &#8599;
+            <Link href="https://bnbnotifier.com" className="underline">
+              🏡 BNBNotifer &#8599;
             </Link>
-            : A tool that integrates the Spotify API to make following artists from your liked songs more efficient
+            : Get Notified of new Airbnb Listings
           </p>
           <h3>
             {" "}
             <p className="my-2">
               <Link href="https://camadams.netlify.app/projects/waves/waves" className="underline">
-                🌊 Sine Wave visulation &#8599;
+                🌊 Sine Wave visualization &#8599;
               </Link>
               : A satisfying Sine Wave generator
             </p>
@@ -78,7 +78,7 @@ export default function Home() {
             {" "}
             <p className="my-2">
               <Link href="https://camadams.netlify.app/projects/waves/waves" className="underline">
-                🌊 Sine Wave visulation &#8599;
+                🌊 Sine Wave visualization &#8599;
               </Link>
               : A satisfying Sine Wave generator
             </p>
@@ -99,10 +99,12 @@ export default function Home() {
       {/* <div className="flex min-h-screen flex-col items-center justify-between bg-gradient-to-b from-30% from-white to-slate-400"> */}
       <div className="flex min-h-screen flex-col ">
         <NavBar />
-        <Hero />
-        <div className="p-6" />
-        <Projects />
-        <Ideas />
+        <section className=" mx-auto">
+          <Hero />
+          <div className="p-6" />
+          <Projects />
+        </section>
+        {/* <Ideas /> */}
       </div>
       {/* <div className="flex min-h-screen flex-col items-center justify-between p-24 bg-slate-800">
         Ta
