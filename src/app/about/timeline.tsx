@@ -1,8 +1,8 @@
-export const timelineTsx = [
+export const timelineTsxx: { title: string; year: string; des: string; pics: { name: string; width: number; height: number }[] }[] = [
   {
     title: "Childhood",
     year: "Pre-2010 ",
-    des: 'I grew up with my mom, dad, and brother in the same house in a small, quiet suburb in the deep south of Cape Town, South Africa. We were close to many beaches and remembered having great times at the beach with my mom in the summer, swimming and eating ice cream.\n\nI remember being fascinated by numbers and gadgets. The excitement of counting to 100 for the first time and running to tell my mom, or asking my dad what "a billion times a billion" is.',
+    des: 'I grew up with my mom, dad, and brother in the same house in a small, quiet suburb in the deep south of Cape Town, South Africa. We were close to many beaches and remembered having great times at the beach with my mom in the summer, swimming and eating ice cream.\n\nI remember being fascinated by numbers and gadgets. The excitement of counting to 100 for the first  and running to tell my mom, or asking my dad what "a billion times a billion" is.',
     pics: [
       // {
       //   "name": "pre2010a.jpg",
@@ -60,7 +60,7 @@ export const timelineTsx = [
   {
     title: "Third Year",
     year: "2018",
-    des: "After three years and shuffling around my majors, I completed a science degree in Maths and Computer Science. This felt like a huge accomplishment and was proud to have completed it.\n\n To be honest, I was glad Pure Mathematics was over. Writing proofs was challenging and was far away from were I started my fascination for Maths. Computer Science, especially the programming side, maintained that early love for solving problems with Math and Logic. I take my hat off to those students that got A's through out Uni. The ones who did the best were the ones that saw the learning material before it arrived in lectures. Some students had both their parents with PhDs in Computer Science and engineering and were doing projects for post-graduates.\n\n For me, University wasn’t the socially vibrant experience many associate it with, as I lived 30kms from campus so it was difficult to  participate in evening activities or societies. ",
+    des: "After three years and shuffling around my majors, I completed a science degree in Maths and Computer Science. This felt like a huge accomplishment and was proud to have completed it.\n\n To be honest, I was glad Pure Mathematics was over. Writing proofs was challenging and was far away from were I started my fascination for Maths. Computer Science, especially the programming side, maintained that early love for solving problems with Math and Logic. I take my hat off to those students that got A's through out Uni. The ones who did the best were the ones that saw the learning material before it arrived in lectures. Some students had both their parents with PhDs in Computer Science and engineering and were doing projects for post-graduates.\n\n Also, for me, University wasn’t the socially vibrant experience many associate it with, as I lived 30kms from campus so it was difficult to  participate in evening activities or societies. ",
     pics: [
       {
         name: "/2018a.jpg",
@@ -72,7 +72,7 @@ export const timelineTsx = [
   {
     title: "Band and Traveling",
     year: "2019",
-    des: "Coming out of university, I wasn’t sure what to do next. Although there were internship programs, they weren’t well-advertised, so I found out pretty late, so I kind of slipped into a gap year. In the first half of the year, I pursued music, leading a band, playing gigs around the deep south, and recorded a four-track EP at a friend’s studio.\n\nIn the second half, I traveled. I visited Europe for the first time, staying with my uncle in the south of France, and returned to Vietnam. From there, I embarked on a solo backpacking trip to Kerala, India, which was a significant milestone for me. Planning and executing the trip alone gave me a sense of accomplishment.",
+    des: "Coming out of university, I wasn’t sure what to do next. I had not taken a gap year so I was keen on a break from studying. So in the first half of the year, I ended up leading a band, playing gigs around the deep south, and recorded a four-track EP at a friend’s studio.\n\nIn the second half, I traveled. I visited Europe for the first time, staying with my uncle in the south of France, and returned to Vietnam. From there, I embarked on a solo backpacking trip to Kerala, India, which was a significant milestone for me. Planning and executing the trip alone gave me a sense of accomplishment.",
     pics: [
       {
         name: "/2019b.jpg",
@@ -111,7 +111,7 @@ export const timelineTsx = [
     ],
   },
   {
-    title: "Challengee",
+    title: "Challenge",
     year: "2022",
     des: "This was the most challenging year of my life so far. I experienced burnout early in the year. It due to various causes and a significant catalyst that threw my ability to rationalize my thoughts and emotions. This forced me to seek support and strengthen my relationships with those closest to me, a transformative experience that continues to shape me.\n\n My biggest take away was: even if someone has a roof over there head, food to eat and \"seems\" to have everything together, they might be fighting battles they do not speak off. While this truth may seem obvious, it wasn't really until being in a short period of suffering in silence due to fear of rejection and stigma, that it really settled in me. A truly humbling experience.\n\n I still maintained my job and had something special to look forward to at the end of the year - a dear friend's wedding. Friends from all over came together, dropping everything to be there. I was a groomsman and was a much needed reunion with my closest friends.",
     pics: [

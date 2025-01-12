@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Link from "next/link";
-import Project from "./components/project";
-import NavBar from "./navbar";
 
 export default function Home() {
   const Hero = () => {
@@ -98,7 +96,7 @@ export default function Home() {
       </BackgroundGradientAnimation> */}
       {/* <div className="flex min-h-screen flex-col items-center justify-between bg-gradient-to-b from-30% from-white to-slate-400"> */}
       <div className="flex min-h-screen flex-col ">
-        <NavBar />
+        {/* <NavBar /> */}
         <section className=" mx-auto">
           <Hero />
           <div className="p-6" />

@@ -1,19 +1,27 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const NavLinks = () => (
   <>
-    <Link href="/projects">Projects</Link>
-    {/* <Link href="/ideas">Ideas</Link> */}
-    <Link href="/blog">Blog</Link>
-    <Link href="/about">About</Link>
+    <Link className="focus:underline" href="/projects">
+      Projects
+    </Link>
+    {/* <Link className="focus:underline" href="/ideas">Ideas</Link> */}
+    <Link className="focus:underline" href="/blog">
+      Blog
+    </Link>
+    <Link className="focus:underline" href="/about">
+      About
+    </Link>
   </>
 );
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-
+  useEffect(() => {
+    console.log("component rerendered");
+  });
   return (
     <nav className="flex justify-between py-3 px-6 text-lg border-b-2">
       <Link href="/">

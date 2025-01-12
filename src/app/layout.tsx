@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import NavBar from "./navbar";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,10 +16,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
   return (
     <html lang="en">
-      <body className={`${inter.className} mx-auto`}>{children}</body>
+      <Head>
+        <script defer data-website-id="67839f2858656f42ac409ce6" data-domain="camthehuman.com" src="https://datafa.st/js/script.js"></script>
+      </Head>
+      <body className={`${inter.className} mx-auto`}>
+        <>
+          {" "}
+          <NavBar />
+          {children}
+        </>
+      </body>
     </html>
   );
 }

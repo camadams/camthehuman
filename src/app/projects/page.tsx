@@ -17,7 +17,7 @@ const projects: Project[] = [
     name: "BNBNotifier",
     description: "Be notified of new Airbnb listings",
     link: "https://www.bnbnotifier.com",
-    githubLink: "https://github.com/camadams/repetwa",
+    githubLink: "https://github.com/camadams/bnbnotifier/tree/main",
     pic: "/projects/bnbnotifier.png",
     projectStatus: "paused",
   },
@@ -71,7 +71,7 @@ const projects: Project[] = [
     year: 2021,
     name: "Sine Waves",
     description: "A satisfying interactive visualization of layers of Sine Waves",
-    link: "https://camadams.netlify.app/projects/pathfinding/pathfinding",
+    link: "https://camadams.netlify.app/projects/waves/waves",
     githubLink: "https://github.com/camadams/output/tree/main/public/projects/waves",
     pic: "/projects/waves.png",
     projectStatus: "live",
@@ -155,7 +155,7 @@ export default function Home() {
 
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <ProjectsList />
     </>
   );

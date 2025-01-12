@@ -1,4 +1,3 @@
-import NavBar from "@/app/navbar";
 import Footer from "../footer";
 
 export const metadata = {
@@ -10,7 +9,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
 
       <div className="max-w-2xl w-full mx-auto pb-16 px-4">
         <h1 className="pt-20 font-semibold">{metadata.title}</h1>

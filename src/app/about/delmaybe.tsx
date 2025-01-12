@@ -1,12 +1,11 @@
-import NavBar from "../navbar";
 
 export default function About() {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="">
-        <pre className=" whitespace-pre-wrap text-gray-800" >
-        {`About Me
+        <pre className=" whitespace-pre-wrap text-gray-800">
+          {`About Me
           Pre-2010
           I grew up with my mom, dad, and brother in the same house in a small, quiet suburb in the deep south of Cape Town, South Africa. We never moved, and my childhood was filled with simple joys. Living close to many beaches, I have fond memories of summers spent swimming and eating ice cream with my mom.
           
@@ -50,7 +49,8 @@ export default function About() {
           I launched my first consumer-ready software product, bnbnotifier.com, complete with user accounts, a software service, and payment integration. The app after that - an efficient spending tracker app - I created a pamphlet and survey to gather user feedback, a rewarding exercise that tested my sales and people skills.
           
           In November, I joined my now girlfriend and three other new friends to hike the Lycian Way, a 300km trail along Turkey’s southern coast, passing 25 ancient ruins, that takes about 25-30 days. I’ve developed a love for long-distance hiking, which to some people might sound like a drag - lugging a heavy pack, eating simple meals, and somethings have below average showers - but for me, the simple rewards far outweigh the challenges. The sights, the fitness, and the joy of stepping away from overstimulating, anxiety-inducing internet scrolling have made it an unforgettable experience.
-        `}</pre>
+        `}
+        </pre>
       </div>
     </>
   );
