@@ -18,9 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <script defer data-website-id="67839f2858656f42ac409ce6" data-domain="camthehuman.com" src="https://datafa.st/js/script.js"></script>
-      </Head>
       <body className={`${inter.className} mx-auto`}>
         <>
           {" "}

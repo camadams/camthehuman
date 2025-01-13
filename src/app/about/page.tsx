@@ -26,8 +26,8 @@ export default function About() {
                   I grew up with my mom, dad, and brother in the same house in a small, quiet suburb in the deep south of Cape Town, South Africa. We
                   were close to many beaches and remembered having great times at the beach with my mom in the summer, swimming and eating ice cream.
                   <br />
-                  <br />I remember being fascinated by numbers and gadgets. The excitement of counting to 100 for the first and running to tell my
-                  mom, or asking my dad what "a billion times a billion" is.
+                  <br />I remember being fascinated by numbers like counting to 100 for the first and running to tell my mom, or waking up my dad in
+                  his sleep to ask what "a billion times a billion" is.
                 </p>
               </div>
             </section>
@@ -57,13 +57,13 @@ export default function About() {
                   <h3 className=" text-md text-gray-500">2010–2015</h3>
                 </div>
                 <p className="whitespace-pre-line mt-2 sm:text-base text-sm">
-                  Around Grade 9, I developed a deep interest in Maths. I loved drawing graphs and understanding fractions. By the end of high school,
-                  double Maths days were my favorite.
+                  Around Grade 9, I developed a keen interest in Maths. I loved drawing graphs and understanding fractions. By the end of high school,
+                  double Maths days were my favorite - "such a nerd", I know right?
                   <br />
-                  <br />
-                  Downhill skating was a big passion. Spending every day after school skating and socializing with other skaters on the hill led to
-                  strong friendships that have lasted into adulthood. It was common to name your skate crew after the suburb where you skated most.
-                  Ours was CFR (Capri FreeRiders), and eventually, most of the crew proudly got CFR tattoos
+                  <br />I spent mosts afternoons after school skating and socializing with other skaters on the hill, which led to strong friendships
+                  that have lasted into my adulthood.
+                  {/* It was common to name your skate crew after the suburb where you skated most.
+                  Ours was CFR (Capri FreeRiders), and eventually, most of the crew proudly got CFR tattoos */}
                 </p>
               </div>
             </section>
@@ -88,13 +88,13 @@ export default function About() {
                   <h3 className=" text-md text-gray-500">2016</h3>
                 </div>
                 <p className="whitespace-pre-line mt-2 sm:text-base text-sm">
-                  At the University of Cape Town, I continued feeding my curiosity for Maths and Physics. I needed to fill a fourth course, and I
+                  I continued feeding my curiosity for Maths and Physics at the University of Cape Town. I needed to fill a fourth course, and I
                   remember my dad saying that "computers are the way forward." I attended a talk promoting the first-year Computer Science course, and
-                  it intrigued me, so I signed up.
+                  it intrigued me, so I signed up! Little did I know that this course would spark an interest of deep and fulfilling.
                   <br />
                   <br /> Solving my first homework assignment - writing a simple algorithm to calculate the perimeter of a house which involved
-                  understanding variables and user input, was so satisfying and got me hooked. I even showed it to my mom and tried to explain it to
-                  her!
+                  understanding the basics such as variables and user input, was so satisfying and got me hooked. I even showed it to my mom and tried
+                  to explain it to her!
                 </p>
               </div>
             </section>
@@ -122,8 +122,9 @@ export default function About() {
                   In my second year, Computer Science and Maths were still my passions, and I enjoyed learning every day. I especially remember being
                   excited about learning Java objects and preparing for lectures by doing my own research. <br />
                   <br />
-                  This was also the year I traveled outside South Africa for the first time, visiting my brother in Vietnam. The bustling streets
-                  filled with scooters and the unique flow of traffic fascinated me, as did trying the local cuisine.
+                  This was also the year I traveled outside South Africa for the first time, visiting my brother in Vietnam. This was a really cool
+                  experience. Seeing all the scooters and how everything flowed in the traffic was so fascinating to me. trying the local cuisine was
+                  a fond memory too.
                 </p>
               </div>
             </section>
@@ -194,7 +195,7 @@ export default function About() {
                   <br />
                   <br />
                   In the second half, I traveled. I visited Europe for the first time, staying with my uncle in the south of France, and returned to
-                  Vietnam. From there, I embarked on a solo backpacking trip to Kerala, India, which was a significant milestone for me. Planning and
+                  Vietnam. From there, I set out on a solo backpacking trip to Kerala, India, which was a significant milestone for me. Planning and
                   executing the trip alone gave me a sense of accomplishment.
                 </p>
               </div>
@@ -220,14 +221,13 @@ export default function About() {
                   <h3 className=" text-md text-gray-500">2020</h3>
                 </div>
                 <p className="whitespace-pre-line mt-2 sm:text-base text-sm">
-                  After a year of playing music and traveling, I felt fulfilled, having accomplished something unique and grown personally. I was
-                  ready to return to studying Computer Science. Living close to campus, I joined a couple of societies—Choir and the Japanese Club.
-                  This was the university experience I had longed for but had missed in my first three years.
+                  My cup was fill after a year of playing music and traveling and was ready to get back to studying again. I lived closed to campus
+                  and joined a couple societies - Choir and Japanese Club. This was the university experience I had longed for but had missed in my
+                  first three years.
                   <br />
                   <br />
                   In the middle of the year, during peak Covid lockdown, I met my first girlfriend through a dating app. Balancing my studies while
-                  having to learn new things about myself through the relationship was a lot, though I look back at traveling around South Africa with
-                  her and our friends fondly.
+                  dating and having to learn new things about myself through the relationship was a lot, though am grateful of the experience.
                 </p>
               </div>
             </section>
@@ -285,13 +285,14 @@ export default function About() {
                   <h3 className=" text-md text-gray-500">2022</h3>
                 </div>
                 <p className="whitespace-pre-line mt-2 sm:text-base text-sm">
-                  This was the most challenging year of my life so far. I experienced burnout early in the year. It due to various causes and a
-                  significant catalyst that threw my ability to rationalize my thoughts and emotions. This forced me to seek support and strengthen my
-                  relationships with those closest to me, a transformative experience that continues to shape me.
+                  This was the most challenging year of my life so far. I experienced burnout early in the year. I find it difficult summarizing the
+                  experience, but there were various causes and a significant catalyst that threw me, it threw my ability to rationalize my thoughts
+                  and emotions. This forced me to seek support and strengthen my relationships with those closest to me, a transformative experience
+                  that continues to shape and humble me.
                   <br />
                   <br /> My biggest take away was: even if someone has a roof over there head, food to eat and \"seems\" to have everything together,
                   they might be fighting battles they do not speak off. While this truth may seem obvious, it wasn't really until being in a short
-                  period of suffering in silence due to fear of rejection and stigma, that it really settled in me. A truly humbling experience.
+                  period of suffering in silence due to fear of rejection and stigma, that it really settled in me.
                   <br />
                   <br /> I still maintained my job and had something special to look forward to at the end of the year - a dear friend's wedding.
                   Friends from all over came together, dropping everything to be there. I was a groomsman and was a much needed reunion with my
@@ -368,7 +369,7 @@ export default function About() {
                   <br />
                   <br />
                   I resigned from my job after three years and am taking an extended break. Initially I wanted to go straight into traveling, but
-                  ended up enjoying taking it slow and enjoyed continuing to make my own apps. I launched my first consumer-ready software product,
+                  ended up enjoying taking it slow and continuing to make my own apps. I launched my first consumer-ready software product,
                   bnbnotifier.com, complete with user accounts, a software service, and payment integration. The app notifies you when a new Airbnb
                   listing is available an area searched for.
                   <br />
