@@ -207,7 +207,7 @@ export default function About() {
                   {
                     name: "/2020a.jpg",
                     width: 960,
-                    height: 1280,
+                    height: 960,
                   },
                 ].map((pic, j) => (
                   <div key={j} className="rounded-lg w-full relative" style={{ aspectRatio: `${pic.width} / ${pic.height}` }}>
