@@ -14,6 +14,15 @@ interface Project {
 const projects: Project[] = [
   {
     year: 2024,
+    name: "Mula",
+    description: "The most efficient spendings tracker.",
+    link: "https://mulav0.vercel.app/",
+    githubLink: "https://github.com/camadams/mulav0",
+    pic: "/projects/mula.png",
+    projectStatus: "in progress",
+  },
+  {
+    year: 2024,
     name: "BNBNotifier",
     description: "Be notified of new Airbnb listings",
     link: "https://www.bnbnotifier.com",
@@ -170,7 +179,7 @@ function getStatusBadge(status: string) {
     case "paused":
       style = "bg-yellow-200 border-yellow-300 text-yellow-500";
       break;
-    case "in-progress":
+    case "in progress":
       style = "bg-green-200 border-green-300 text-green-500";
       break;
     default:
