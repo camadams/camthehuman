@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { Github } from "lucide-react";
-import { Project as ProjectType } from "../projects/page";
+import { projects, Project } from "@/projects";
 
-export default function Project({ project }: { project: ProjectType }) {
+export default function ProjectPage({ project }: { project: Project }) {
   return (
     <section className="sm:flex block w-full rounded-lg border-2">
       <div className="sm:w-1/2 sm:flex-shrink-0  flex items-center">
