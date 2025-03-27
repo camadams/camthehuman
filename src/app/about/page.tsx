@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 // import { timelineTsxx } from "./timeline";
 // import { timeline } from "./timeline";
 
@@ -9,6 +10,31 @@ export default function About() {
       <div>
         <div className="max-w-4xl mx-auto mt-10 flex flex-col">
           <div className="space-y-28 w-full">
+            {/* TLDR Section */}
+            <section className="mb-12 p-6 bg-gray-50 rounded-lg shadow-sm">
+              <h1 className="text-xl">TLDR</h1>
+              <p className="whitespace-pre-line mt-2 sm:text-base text-sm">
+                Born and raised in the Deep South of Cape Town. I developed a keen interest in Maths and Physics at High School and completed a B.Sc
+                in Maths and Computers at UCT. I then traveled a year in Asia and Europe before completing an Honors in Computer Science at UCT.
+                Worked at SOLIDitech for 3 years as a full stack Java/HTML/CSS/React developer. Currently independently creating apps and freelancing.
+              </p>
+              <div className="flex flex-wrap gap-4 mt-4">
+                <Link
+                  href="/cv.pdf"
+                  target="_blank"
+                  className="flex items-center px-2 text-xs py-1 bg-blue-400 text-white rounded hover:bg-blue-500 transition-colors"
+                >
+                  View CV
+                </Link>
+                <Link
+                  href="/university-transcript.pdf"
+                  target="_blank"
+                  className="flex items-center px-2 text-xs py-1 bg-gray-400 text-white rounded hover:bg-gray-600 transition-colors"
+                >
+                  University Transcript
+                </Link>
+              </div>
+            </section>
             <section className="flex sm:flex-row flex-col sm:space-x-4 w-full space-y-4 sm:space-y-0">
               <div className="space-y-4 flex-shrink-0 sm:w-1/2 w-full ">
                 {[{ name: "/pre2010b.jpg", width: 604, height: 453 }].map((pic, j) => (
