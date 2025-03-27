@@ -32,7 +32,7 @@ export default function Home() {
           </div>
 
           <p className="my-2">
-            <Link href="https://bnbnotifier.com" className="underline">
+            <Link href="/bnbnotifier" className="underline">
               🏡 BNBNotifer &#8599;
             </Link>
             : Get Notified of new Airbnb Listings
@@ -40,7 +40,7 @@ export default function Home() {
           <h3>
             {" "}
             <p className="my-2">
-              <Link href="https://camadams.netlify.app/projects/waves/waves" className="underline">
+              <Link href="/waves" className="underline">
                 🌊 Sine Wave visualization &#8599;
               </Link>
               : A satisfying Sine Wave generator
