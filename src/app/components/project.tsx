@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Github } from "lucide-react";
-import { getStatusBadge, Project as ProjectType } from "../projects/page";
+import { Project as ProjectType } from "../projects/page";
 
 export default function Project({ project }: { project: ProjectType }) {
   return (
@@ -32,4 +32,22 @@ export default function Project({ project }: { project: ProjectType }) {
       </div>
     </section>
   );
+}
+
+function getStatusBadge(status: string) {
+  var style = "";
+  switch (status) {
+    case "live":
+      style = "bg-blue-200 border-blue-300 text-blue-500";
+      break;
+    case "paused":
+      style = "bg-yellow-200 border-yellow-300 text-yellow-500";
+      break;
+    case "in progress":
+      style = "bg-green-200 border-green-300 text-green-500";
+      break;
+    default:
+      style = "bg-red-500";
+  }
+  return <div className={`rounded-xl border-2 px-2 py-1 text-xs w-fit ${style}`}>{status}</div>;
 }
