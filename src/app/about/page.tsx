@@ -20,7 +20,7 @@ export default function About() {
               </p>
               <div className="flex flex-wrap gap-4 mt-4">
                 <Link
-                  href="/cv.pdf"
+                  href="/cv2.pdf"
                   target="_blank"
                   className="flex items-center px-2 text-xs py-1 bg-blue-400 text-white rounded hover:bg-blue-500 transition-colors"
                 >
